@@ -1,0 +1,25 @@
+{
+	"name": "certificate-generator",
+	"version": "1.0.0",
+	"description": "Generates certificated from svg template and csv list of names",
+	"main": "index.js",
+	"dependencies": {
+		"pdfkit": "^0.11.0",
+		"svg-to-pdfkit": "^0.1.8"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@gitlab.com/jagannathbhat/certificates.git"
+	},
+	"keywords": [],
+	"author": "Jagannath V Bhat",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://gitlab.com/jagannathbhat/certificates/issues"
+	},
+	"homepage": "https://gitlab.com/jagannathbhat/certificates#readme"
+}
